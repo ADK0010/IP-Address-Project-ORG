@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+#map{
+    width: 90%;
+    height: 100%;
+    margin-bottom: 64px;
+    position: absolute;
+    top: -50px;
+}
+.map-container{
+    height: 417px;
+    transition: all 1s ease-in-out;
+    position: relative;
+   
+}
